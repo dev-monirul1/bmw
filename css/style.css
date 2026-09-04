@@ -6,7 +6,7 @@
 
 /* ===== navbar css style start ===== */
 #navbar{
-    
+    background-color: blanchedalmond;
 }
 
 .navbar-brand img {
@@ -83,3 +83,35 @@
     height: 100vh;
 }
 /* ===== banner css style end ===== */
+
+/* ===== price css style start ===== */
+#price{
+    padding: 100px 0 70px;
+    background-color: antiquewhite;
+}
+.card{
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: 0 14px 35px 0 rgba(0, 0, 0, 0.20);
+}
+.card-title{
+    font-weight: 700;
+}
+.card-title span{
+    font-size: 30px;
+    color: gold;
+}
+.cardIcon{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.cardIcon i{
+    color: gold;
+}
+.card-text{
+    font-size: 15px;
+    opacity: 0.8;
+}
+/* ===== price css style end ===== */
