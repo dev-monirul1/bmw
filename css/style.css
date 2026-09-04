@@ -1,0 +1,85 @@
+/* ===== common css style start ===== */
+*{
+    font-family: "Doppio One", sans-serif;
+}
+/* ===== common css style end ===== */
+
+/* ===== navbar css style start ===== */
+#navbar{
+    
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+.navbar-nav {
+    gap: 50px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #000;
+    opacity: 0.7;
+    position: relative;
+    transition: .5s;
+}
+.navbar-nav .nav-item .nav-link::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    opacity: 0;
+    background-color: #000;
+    transition: .5s;
+}
+.navbar-nav .nav-item .nav-link::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 100%;
+    top: -5px;
+    left: 0;
+    opacity: 0;
+    background-color: #000;
+    transition: .5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    opacity: 1;
+}
+.navbar-nav .nav-item .nav-link:hover::after{
+    opacity: 1;
+    bottom: 5px;
+}
+.navbar-nav .nav-item .nav-link:hover::before{
+    opacity: 1;
+    top: 6px;
+}
+
+
+.btn {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(to right, red, blue) border-box;
+        color: #000;
+        transition: all linear 0.6s;
+        font-weight: 700;
+}
+.btn:hover{
+   border: 2px solid transparent;
+    background: linear-gradient(to right, red, blue);
+    background:
+        linear-gradient(to right, red, blue) padding-box,
+        linear-gradient(to right, red, blue) border-box;
+
+}
+
+/* ===== navbar css style end ===== */
+
+/* ===== banner css style start ===== */
+.carousel-item img{
+    height: 100vh;
+}
+/* ===== banner css style end ===== */
