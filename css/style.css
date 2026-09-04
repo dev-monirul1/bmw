@@ -1,28 +1,32 @@
 /* ===== common css style start ===== */
-*{
+* {
     font-family: "Doppio One", sans-serif;
 }
+
 /* ===== common css style end ===== */
 
 /* ===== navbar css style start ===== */
-#navbar{
-    background-color: blanchedalmond;
+#navbar {
+    background-color: rgb(233, 230, 227);
 }
 
 .navbar-brand img {
     width: 40px;
     height: 40px;
 }
+
 .navbar-nav {
     gap: 50px;
 }
-.navbar-nav .nav-item .nav-link{
+
+.navbar-nav .nav-item .nav-link {
     color: #000;
     opacity: 0.7;
     position: relative;
     transition: .5s;
 }
-.navbar-nav .nav-item .nav-link::after{
+
+.navbar-nav .nav-item .nav-link::after {
     position: absolute;
     content: "";
     height: 3px;
@@ -33,7 +37,8 @@
     background-color: #000;
     transition: .5s;
 }
-.navbar-nav .nav-item .nav-link::before{
+
+.navbar-nav .nav-item .nav-link::before {
     position: absolute;
     content: "";
     height: 3px;
@@ -44,14 +49,17 @@
     background-color: #000;
     transition: .5s;
 }
-.navbar-nav .nav-item .nav-link:hover{
+
+.navbar-nav .nav-item .nav-link:hover {
     opacity: 1;
 }
-.navbar-nav .nav-item .nav-link:hover::after{
+
+.navbar-nav .nav-item .nav-link:hover::after {
     opacity: 1;
     bottom: 5px;
 }
-.navbar-nav .nav-item .nav-link:hover::before{
+
+.navbar-nav .nav-item .nav-link:hover::before {
     opacity: 1;
     top: 6px;
 }
@@ -63,12 +71,13 @@
     background:
         linear-gradient(white, white) padding-box,
         linear-gradient(to right, red, blue) border-box;
-        color: #000;
-        transition: all linear 0.6s;
-        font-weight: 700;
+    color: #000;
+    transition: all linear 0.6s;
+    font-weight: 700;
 }
-.btn:hover{
-   border: 2px solid transparent;
+
+.btn:hover {
+    border: 2px solid transparent;
     background: linear-gradient(to right, red, blue);
     background:
         linear-gradient(to right, red, blue) padding-box,
@@ -79,39 +88,116 @@
 /* ===== navbar css style end ===== */
 
 /* ===== banner css style start ===== */
-.carousel-item img{
+.carousel-item img {
     height: 100vh;
 }
+
 /* ===== banner css style end ===== */
 
 /* ===== price css style start ===== */
-#price{
+#price {
     padding: 100px 0 70px;
-    background-color: antiquewhite;
+    background-color: rgb(233, 230, 227);
 }
-.card{
+
+.card {
     transition: 0.5s;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 0 14px 35px 0 rgba(0, 0, 0, 0.20);
 }
-.card-title{
+
+.card-title {
     font-weight: 700;
 }
-.card-title span{
+
+.card-title span {
     font-size: 30px;
     color: gold;
 }
-.cardIcon{
+
+.cardIcon {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
 }
-.cardIcon i{
+
+.cardIcon i {
     color: gold;
 }
-.card-text{
+
+.card-text {
     font-size: 15px;
     opacity: 0.8;
 }
+
 /* ===== price css style end ===== */
+
+/* ===== customer css style start ===== */
+#customer {
+    padding: 60px 0;
+    background-color: rgb(9, 9, 64);
+}
+
+.customerImg {
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.customerImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.customerText {
+    text-align: center;
+}
+
+.customerText h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.customerText h5 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.customerText p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    opacity: 0.5;
+    margin-bottom: 40px;
+    max-width: 400px;
+    display: inline-block;
+}
+
+.customerBtn a {
+  text-decoration: none;
+  padding: 15px 25px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: 0.5s;
+
+}
+.customerBtn a:hover {
+   border: 2px solid transparent;
+   color: #000;
+   background-color: #fff;
+
+}
+
+/* ===== customer css style end ===== */
