@@ -90,6 +90,7 @@
 /* ===== banner css style start ===== */
 .carousel-item img {
     height: 100vh;
+    object-fit: cover;
 }
 
 /* ===== banner css style end ===== */
