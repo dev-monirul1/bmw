@@ -201,3 +201,155 @@
 }
 
 /* ===== customer css style end ===== */
+
+/* ===== footer css style start ===== */
+#footer{
+    padding: 60px 0 10px;
+    background-color: #151414;
+    
+}
+.footerLogo{
+    width: 100%;
+    height: 100%;
+}
+.LogoImg img{
+    width: 30px;
+    height: 30px;
+}
+.footerLogo h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin: 20px 0 15px;
+}
+.footerLogo p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+.footerLogo h6{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.footerIconWrap{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+.footerIcon{
+    width: 35px;
+    height: 35px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+}
+.footerIcon i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #000;
+}
+
+.footerList h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #F7F6F6;
+    padding-bottom: 15px;
+
+}
+.footerList menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footerList menu li{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.footerContact h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #F7F6F6;
+    padding-bottom: 8px;
+}
+.footerContact p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.80);
+    padding-bottom: 8px;
+}
+.footerForm{
+    display: flex;
+    gap: 8px;
+}
+.footerForm input{
+    width: 320px;
+    height: 50px;
+    padding: 9px 0 9px 7px;
+}
+.footerForm input::placeholder{
+    color: rgba(0, 14, 81, 0.60);
+    font-size: 16px;
+    font-weight: 400;  
+}
+.footerForm input:focus{
+    border: none;
+    outline: none;
+}
+.footerForm button{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Albert Sans", sans-serif;
+    padding: 10.5px 19px;
+    border: 2px solid transparent;
+    background-color: #2460FD;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footerForm button:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    
+}
+.ContactBox{
+    display: flex;
+    gap: 70px;
+    margin-top: 28px;
+}
+.address h6 , .emailBox h6 , .phoneBox h6{
+    font-size: 18px;
+    font-weight: 700;
+    color: #F7F6F6;
+    padding-bottom: 8px;
+}
+.address p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 128px;
+    color: rgba(255, 255, 255, 0.80);
+}
+.footerLine{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(244, 237, 227);
+    margin: 20px 0 25px;
+}
+.footerLastLine{
+    text-align: center;
+}
+.footerLastLine p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(241, 234, 234, 0.8);
+}
+/* ===== footer css style end ===== */
