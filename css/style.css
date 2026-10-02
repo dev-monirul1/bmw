@@ -178,7 +178,17 @@
     font-size: 15px;
     opacity: 0.8;
 }
-
+.card .btn{
+    transition: .5s;
+}
+.card:hover  .btn{
+    border: 2px solid transparent;
+    background: linear-gradient(to right, red, blue);
+    background:
+        linear-gradient(to right, red, blue) padding-box,
+        linear-gradient(to right, red, blue) border-box;
+        color: #fff;
+}
 /* ===== price css style end ===== */
 
 /* ===== customer css style start ===== */
