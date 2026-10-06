@@ -175,7 +175,7 @@
 }
 
 .card-text {
-    font-size: 15px;
+    font-size: 14px;
     opacity: 0.8;
 }
 .card .btn{
@@ -193,7 +193,7 @@
 
 /* ===== customer css style start ===== */
 #customer {
-    padding: 60px 0;
+    padding: 61px 0;
     background-color: rgb(9, 9, 64);
 }
 
@@ -214,7 +214,7 @@
 }
 
 .customerText h2 {
-    font-size: 40px;
+    font-size: 41px;
     font-weight: 700;
     color: #fff;
     margin-bottom: 30px;
