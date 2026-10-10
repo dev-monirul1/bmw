@@ -327,19 +327,19 @@
     margin: 0;
 }
 .footerList menu li{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.80);
 }
 
 .footerContact h5{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     color: #F7F6F6;
     padding-bottom: 8px;
 }
 .footerContact p{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.80);
     padding-bottom: 8px;
@@ -363,7 +363,7 @@
     outline: none;
 }
 .footerForm button{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     font-family: "Albert Sans", sans-serif;
     padding: 10.5px 19px;
@@ -384,13 +384,13 @@
     margin-top: 28px;
 }
 .address h6 , .emailBox h6 , .phoneBox h6{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     color: #F7F6F6;
     padding-bottom: 8px;
 }
 .address p{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     width: 128px;
     color: rgba(255, 255, 255, 0.80);
@@ -405,7 +405,7 @@
     text-align: center;
 }
 .footerLastLine p{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     color: rgba(241, 234, 234, 0.8);
 }
